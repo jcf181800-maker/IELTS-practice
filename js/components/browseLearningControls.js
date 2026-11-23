@@ -178,6 +178,7 @@
             });
             global.__browseSortMode = selection.sortMode;
             sync();
+            close();
             persistSelection({
                 learningState: selection.learningState,
                 favoritesOnly: selection.favoritesOnly,
