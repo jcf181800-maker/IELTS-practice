@@ -2883,11 +2883,13 @@ body.blue-dark-mode .external-backup-banner__dismiss {
     padding: 16px;
     border: 1px solid var(--shui-panel-border, rgba(255, 255, 255, 0.4));
     border-radius: 16px;
-    background: var(--shui-panel-bg, rgba(255, 255, 255, 0.25));
+    background: #ffffff;
     color: var(--shui-text-strong, #1d1d1f);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
     box-shadow: var(--shui-panel-shadow, 0 20px 40px rgba(15, 23, 42, 0.12));
+}
+body.bloom-dark-mode #browse-view .browse-learning-panel,
+body.blue-dark-mode #browse-view .browse-learning-panel {
+    background: #0f172a;
 }
 
 #browse-view .browse-learning-panel[hidden] { display: none; }
