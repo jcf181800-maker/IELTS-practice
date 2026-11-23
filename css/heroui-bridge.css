@@ -2887,6 +2887,7 @@ body.blue-dark-mode .external-backup-banner__dismiss {
     color: var(--shui-text-strong, #1d1d1f);
     box-shadow: var(--shui-panel-shadow, 0 20px 40px rgba(15, 23, 42, 0.12));
 }
+
 body.bloom-dark-mode #browse-view .browse-learning-panel,
 body.blue-dark-mode #browse-view .browse-learning-panel {
     background: #0f172a;
